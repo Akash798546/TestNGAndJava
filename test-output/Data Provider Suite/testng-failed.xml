@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Data Provider Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="AcceptanceLevel(failed)">
+    <classes>
+      <class name="DataProvider.DataProviderAcceptanceExample">
+        <methods>
+          <include name="AcceptanceTest"/>
+        </methods>
+      </class> <!-- DataProvider.DataProviderAcceptanceExample -->
+    </classes>
+  </test> <!-- AcceptanceLevel(failed) -->
+  <test thread-count="5" name="IntregationLevel(failed)">
+    <classes>
+      <class name="DataProvider.DataProviderIntregationExample">
+        <methods>
+          <include name="IntregationTest"/>
+        </methods>
+      </class> <!-- DataProvider.DataProviderIntregationExample -->
+    </classes>
+  </test> <!-- IntregationLevel(failed) -->
+</suite> <!-- Failed suite [Data Provider Suite] -->

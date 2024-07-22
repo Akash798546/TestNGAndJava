@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-19T19:27:55 IST" name="Data Provider Suite" finished-at="2024-06-19T19:27:55 IST" duration-ms="195">
+    <groups>
+    </groups>
+    <test started-at="2024-06-19T19:27:55 IST" name="Unit Test" finished-at="2024-06-19T19:27:55 IST" duration-ms="82">
+      <class name="DataProvider.DataProviderParameterexample">
+        <test-method signature="Scenario1(java.lang.String)[pri:0, instance:DataProvider.DataProviderParameterexample@353352b6]" started-at="2024-06-19T19:27:55 IST" name="Scenario1" data-provider="scenarioData" finished-at="2024-06-19T19:27:55 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Scenario data 1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario1 -->
+        <test-method signature="Scenario2(java.lang.String)[pri:0, instance:DataProvider.DataProviderParameterexample@353352b6]" started-at="2024-06-19T19:27:55 IST" name="Scenario2" data-provider="scenarioData" finished-at="2024-06-19T19:27:55 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Scenario data 2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Scenario2 -->
+        <test-method signature="ScenarioCommon(java.lang.String)[pri:0, instance:DataProvider.DataProviderParameterexample@353352b6]" started-at="2024-06-19T19:27:55 IST" name="ScenarioCommon" data-provider="scenarioData" finished-at="2024-06-19T19:27:55 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Common Scenario data ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScenarioCommon -->
+      </class> <!-- DataProvider.DataProviderParameterexample -->
+    </test> <!-- Unit Test -->
+    <test started-at="2024-06-19T19:27:55 IST" name="AcceptanceLevel" finished-at="2024-06-19T19:27:55 IST" duration-ms="5">
+      <class name="DataProvider.DataProviderAcceptanceExample">
+        <test-method signature="AcceptanceTest(java.lang.String)[pri:0, instance:DataProvider.DataProviderAcceptanceExample@69c81773]" started-at="2024-06-19T19:27:55 IST" name="AcceptanceTest" data-provider="TestData" finished-at="2024-06-19T19:27:55 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AcceptanceLevel data ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AcceptanceTest -->
+      </class> <!-- DataProvider.DataProviderAcceptanceExample -->
+    </test> <!-- AcceptanceLevel -->
+    <test started-at="2024-06-19T19:27:55 IST" name="IntregationLevel" finished-at="2024-06-19T19:27:55 IST" duration-ms="6">
+      <class name="DataProvider.DataProviderIntregationExample">
+        <test-method signature="IntregationTest(java.lang.String)[pri:0, instance:DataProvider.DataProviderIntregationExample@25df00a0]" started-at="2024-06-19T19:27:55 IST" name="IntregationTest" data-provider="TestData" finished-at="2024-06-19T19:27:55 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IntregationLevel data ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IntregationTest -->
+      </class> <!-- DataProvider.DataProviderIntregationExample -->
+    </test> <!-- IntregationLevel -->
+  </suite> <!-- Data Provider Suite -->
+</testng-results>
