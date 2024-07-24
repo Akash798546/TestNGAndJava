@@ -22,7 +22,7 @@ public class FaceBook_Registration {
 	}
 	  @Test
 	  public void faceBookRegistration() {
-		  
+		  System.out.println("This is Registration Test : "+Thread.currentThread().getId());
 		
 		  test.info("Facebook Registraion Test 1");
 		  test.info("Facebook Registraion Test 2");

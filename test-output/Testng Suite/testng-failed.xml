@@ -5,9 +5,9 @@
     <classes>
       <class name="ExtentReport.Facebook_Login">
         <methods>
-          <include name="extentReportStart"/>
-          <include name="faceBookLogin"/>
+          <include name="initializingExtentReport"/>
           <include name="quitReport"/>
+          <include name="faceBook_Login"/>
         </methods>
       </class> <!-- ExtentReport.Facebook_Login -->
     </classes>

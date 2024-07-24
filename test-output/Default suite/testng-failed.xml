@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ExtentReport.Facebook_Login">
+      <class name="BasicTest.Depends">
         <methods>
-          <include name="initializingExtentReport"/>
-          <include name="quitReport"/>
-          <include name="faceBook_Login"/>
+          <include name="login"/>
+          <include name="search"/>
+          <include name="launchurl"/>
+          <include name="click"/>
         </methods>
-      </class> <!-- ExtentReport.Facebook_Login -->
+      </class> <!-- BasicTest.Depends -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

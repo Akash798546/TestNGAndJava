@@ -2,75 +2,32 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-19T19:27:55 IST" name="Data Provider Suite" finished-at="2024-06-19T19:27:55 IST" duration-ms="195">
+  <suite started-at="2024-07-24T16:40:49 IST" name="Default suite" finished-at="2024-07-24T16:40:49 IST" duration-ms="76">
     <groups>
     </groups>
-    <test started-at="2024-06-19T19:27:55 IST" name="Unit Test" finished-at="2024-06-19T19:27:55 IST" duration-ms="82">
-      <class name="DataProvider.DataProviderParameterexample">
-        <test-method signature="Scenario1(java.lang.String)[pri:0, instance:DataProvider.DataProviderParameterexample@353352b6]" started-at="2024-06-19T19:27:55 IST" name="Scenario1" data-provider="scenarioData" finished-at="2024-06-19T19:27:55 IST" duration-ms="7" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Scenario data 1]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2024-07-24T16:40:49 IST" name="Default test" finished-at="2024-07-24T16:40:49 IST" duration-ms="76">
+      <class name="BasicTest.Depends">
+        <test-method signature="launchurl()[pri:1, instance:BasicTest.Depends@433defed]" started-at="2024-07-24T16:40:49 IST" name="launchurl" finished-at="2024-07-24T16:40:49 IST" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Scenario1 -->
-        <test-method signature="Scenario2(java.lang.String)[pri:0, instance:DataProvider.DataProviderParameterexample@353352b6]" started-at="2024-06-19T19:27:55 IST" name="Scenario2" data-provider="scenarioData" finished-at="2024-06-19T19:27:55 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Scenario data 2]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- launchurl -->
+        <test-method signature="login()[pri:2, instance:BasicTest.Depends@433defed]" started-at="2024-07-24T16:40:49 IST" name="login" finished-at="2024-07-24T16:40:49 IST" depends-on-methods="BasicTest.Depends.launchurl" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Scenario2 -->
-        <test-method signature="ScenarioCommon(java.lang.String)[pri:0, instance:DataProvider.DataProviderParameterexample@353352b6]" started-at="2024-06-19T19:27:55 IST" name="ScenarioCommon" data-provider="scenarioData" finished-at="2024-06-19T19:27:55 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Common Scenario data ]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- login -->
+        <test-method signature="search()[pri:3, instance:BasicTest.Depends@433defed]" started-at="2024-07-24T16:40:49 IST" name="search" finished-at="2024-07-24T16:40:49 IST" depends-on-methods="BasicTest.Depends.login" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ScenarioCommon -->
-      </class> <!-- DataProvider.DataProviderParameterexample -->
-    </test> <!-- Unit Test -->
-    <test started-at="2024-06-19T19:27:55 IST" name="AcceptanceLevel" finished-at="2024-06-19T19:27:55 IST" duration-ms="5">
-      <class name="DataProvider.DataProviderAcceptanceExample">
-        <test-method signature="AcceptanceTest(java.lang.String)[pri:0, instance:DataProvider.DataProviderAcceptanceExample@69c81773]" started-at="2024-06-19T19:27:55 IST" name="AcceptanceTest" data-provider="TestData" finished-at="2024-06-19T19:27:55 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[AcceptanceLevel data ]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- search -->
+        <test-method signature="click()[pri:4, instance:BasicTest.Depends@433defed]" started-at="2024-07-24T16:40:49 IST" name="click" finished-at="2024-07-24T16:40:49 IST" depends-on-methods="BasicTest.Depends.search, BasicTest.Depends.login" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AcceptanceTest -->
-      </class> <!-- DataProvider.DataProviderAcceptanceExample -->
-    </test> <!-- AcceptanceLevel -->
-    <test started-at="2024-06-19T19:27:55 IST" name="IntregationLevel" finished-at="2024-06-19T19:27:55 IST" duration-ms="6">
-      <class name="DataProvider.DataProviderIntregationExample">
-        <test-method signature="IntregationTest(java.lang.String)[pri:0, instance:DataProvider.DataProviderIntregationExample@25df00a0]" started-at="2024-06-19T19:27:55 IST" name="IntregationTest" data-provider="TestData" finished-at="2024-06-19T19:27:55 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[IntregationLevel data ]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- click -->
+        <test-method signature="logout()[pri:0, instance:BasicTest.Depends@433defed]" started-at="2024-07-24T16:40:49 IST" name="logout" finished-at="2024-07-24T16:40:49 IST" depends-on-methods="BasicTest.Depends.search, BasicTest.Depends.login, BasicTest.Depends.click, BasicTest.Depends.launchurl" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- IntregationTest -->
-      </class> <!-- DataProvider.DataProviderIntregationExample -->
-    </test> <!-- IntregationLevel -->
-  </suite> <!-- Data Provider Suite -->
+        </test-method> <!-- logout -->
+      </class> <!-- BasicTest.Depends -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

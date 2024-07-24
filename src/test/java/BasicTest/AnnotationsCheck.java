@@ -63,6 +63,26 @@ public class AnnotationsCheck {
 	  
 	  System.out.println("This is the test");
   }
+  
+
+  @Test
+  public void Test2()
+  {
+	  
+	  System.out.println("This is the test2");
+  
+  
+  }
+  
+  
+
+  @Test
+  public void Test3()
+  {
+	  
+	  System.out.println("This is the test3");
+  
+  }
   @AfterSuite
   public void AfterSuiteChk()
   {

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FacebookLinkedIn Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="AcceptanceLevel1(failed)">
+    <classes>
+      <class name="DataProvider.FacebookRegistrationIntregation">
+        <methods>
+          <include name="FacebookRegistration"/>
+        </methods>
+      </class> <!-- DataProvider.FacebookRegistrationIntregation -->
+    </classes>
+  </test> <!-- AcceptanceLevel1(failed) -->
+  <test thread-count="5" name="IntregationLevel1(failed)">
+    <classes>
+      <class name="DataProvider.FacebookIntregation">
+        <methods>
+          <include name="FacebookLogin"/>
+        </methods>
+      </class> <!-- DataProvider.FacebookIntregation -->
+    </classes>
+  </test> <!-- IntregationLevel1(failed) -->
+</suite> <!-- Failed suite [FacebookLinkedIn Suite] -->
