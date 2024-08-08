@@ -1,0 +1,14 @@
+{
+  "Employee Details": [
+    {
+      "company": "TIL",
+      "salary": "25000",
+      "Name": "Akash"
+    },
+    {
+      "company": "wipro",
+      "salary": "20000",
+      "Name": "Aryan"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "testng-1.0.dtd">
+<suite name="Multi Testng Suite">
+	<suite-files>
+		<suite-file path="dataprovidertestng.xml" />
+		<suite-file path="facebookLinkedIn.xml" />
+		<suite-file path="parametertestng.xml" />
+		<suite-file path="Facebooktestng.xml" />
+
+		<!-- Add more suites as needed -->
+	</suite-files>
+</suite> <!--
+Suite -->
