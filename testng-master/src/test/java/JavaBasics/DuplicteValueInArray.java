@@ -9,9 +9,13 @@ public class DuplicteValueInArray {
 			for (int j = i+1; j < arry.length; j++) {
 				if(arry[i]==arry[j])
 				{
-					System.out.println("Duplicate value is :" +arry[j]);
+					System.out.print(" " +arry[j]);
+					
 				}
+				
+				
 			}
+			
 		}
 				
 		

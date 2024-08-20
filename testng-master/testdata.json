@@ -9,6 +9,11 @@
       "company": "wipro",
       "salary": "20000",
       "Name": "Aryan"
+    },
+    {
+      "company": "TCS",
+      "salary": "50000",
+      "Name": "Peter"
     }
   ]
 }
