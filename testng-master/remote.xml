@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "testng-1.0.dtd">
+<suite name="Suite" parallel="classes">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="RemoteTest.Setup_Docker"/>
+      <class name="RemoteTest.Test1"/>
+      <class name="RemoteTest.Test3"/>
+      <class name="RemoteTest.Test2"/>
+      <class name="RemoteTest.Test4"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
