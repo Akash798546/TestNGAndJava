@@ -1,6 +1,7 @@
 package RemoteTest;
 
 import java.io.IOException;
+import java.time.Duration;
 
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -13,7 +14,7 @@ public class Setup_Docker {
 	public void startDockergrid() throws IOException, InterruptedException
 	{
 		Runtime.getRuntime().exec("cmd /c start start-dockergrid.bat ");
-		Thread.sleep(20000);
+		Thread.sleep(30000);
 	}
 	
 	@AfterTest

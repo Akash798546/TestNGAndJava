@@ -16,6 +16,7 @@ D:\Projects\testng-master\testng-master\src\test\java\BasicTest\DemoListener.jav
 D:\Projects\testng-master\testng-master\src\test\java\DataProvider\DataProviderParameterexample.java
 D:\Projects\testng-master\testng-master\src\test\java\JavaBasics\AnagramString.java
 D:\Projects\testng-master\testng-master\src\test\java\ExtentReport\NewTest.java
+D:\Projects\testng-master\testng-master\src\test\java\JavaBasics\LowestNumberInArray.java
 D:\Projects\testng-master\testng-master\src\test\java\ExcelWriteRead\EmployeeDataFromExcel.java
 D:\Projects\testng-master\testng-master\src\test\java\CollectionFramework\ListDemo.java
 D:\Projects\testng-master\testng-master\src\test\java\JavaBasics\ReverseString.java
@@ -45,6 +46,7 @@ D:\Projects\testng-master\testng-master\src\test\java\Selenium\OpenBrowser.java
 D:\Projects\testng-master\testng-master\src\test\java\ExcelWriteRead\ReadJson.java
 D:\Projects\testng-master\testng-master\src\test\java\CollectionFramework\MapDemo.java
 D:\Projects\testng-master\testng-master\src\test\java\RemoteTest\Setup_Docker.java
+D:\Projects\testng-master\testng-master\src\test\java\JavaBasics\BinarySearch.java
 D:\Projects\testng-master\testng-master\src\test\java\JavaBasics\RemoveZeroFromArray.java
 D:\Projects\testng-master\testng-master\src\test\java\JavaBasics\ReverseNumber.java
 D:\Projects\testng-master\testng-master\src\test\java\BasicTest\ArrayDemo.java
@@ -58,6 +60,7 @@ D:\Projects\testng-master\testng-master\src\test\java\DataProvider\DataProviderA
 D:\Projects\testng-master\testng-master\src\test\java\DataProvider\FacebookRegistrationIntregation.java
 D:\Projects\testng-master\testng-master\src\test\java\JavaBasics\NumberOfVowelAndConsonantInString.java
 D:\Projects\testng-master\testng-master\src\test\java\DataProvider\Facebook.java
+D:\Projects\testng-master\testng-master\src\test\java\JavaBasics\RotatedArray.java
 D:\Projects\testng-master\testng-master\src\test\java\JavaBasics\WritingDataInTextFile.java
 D:\Projects\testng-master\testng-master\src\test\java\ExcelWriteRead\GetEmployeeDataFromExcel.java
 D:\Projects\testng-master\testng-master\src\test\java\DataProvider\DataProviderIntregationExample.java

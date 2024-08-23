@@ -29,6 +29,7 @@ CollectionFramework\EmpComp2.class
 DataProvider\FacebookRegistrationIntregation.class
 JavaBasics\swapNumber.class
 BasicTest\Depends.class
+JavaBasics\LowestNumberInArray.class
 ExcelWriteRead\WorkerFileRead.class
 RemoteTest\Test2.class
 JavaBasics\Fibonacci_series.class
@@ -40,6 +41,7 @@ ExcelWriteRead\ReadExcelData.class
 JavaBasics\Threding.class
 JavaBasics\SyncTest.class
 Parameteization\ParameterizationTest.class
+JavaBasics\RotatedArray.class
 CollectionFramework\ListDemo.class
 DataProvider\DataProviderParameterexample.class
 JavaBasics\NonRepeatedCharinString.class
@@ -69,6 +71,7 @@ RemoteTest\Test3.class
 CollectionFramework\ListWithMap.class
 JavaBasics\ArraySorting.class
 CollectionFramework\MyCompare.class
+JavaBasics\BinarySearch.class
 DataProvider\FacebookLoginTest.class
 JavaBasics\DuplicteValueInArray.class
 JavaBasics\RandomNumber.class
