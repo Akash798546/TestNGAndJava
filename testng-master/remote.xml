@@ -8,6 +8,10 @@
       <class name="RemoteTest.Test3"/>
       <class name="RemoteTest.Test2"/>
       <class name="RemoteTest.Test4"/>
+      <class name="RemoteTest.Test5"/>
+      <class name="RemoteTest.Test7"/>
+      <class name="RemoteTest.Test6"/>
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

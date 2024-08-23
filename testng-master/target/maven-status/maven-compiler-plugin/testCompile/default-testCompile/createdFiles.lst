@@ -4,6 +4,7 @@ JavaBasics\SearchElementInArray.class
 RemoteTest\Test4.class
 JavaBasics\ReverseString.class
 JavaBasics\Second.class
+RemoteTest\Test7.class
 JavaBasics\MissingNumberArray.class
 ExtentReport\SampleExtentReport.class
 DataProvider\DataProviderAcceptanceExample.class
@@ -28,6 +29,7 @@ DataProvider\DataProviderIntregationExample.class
 CollectionFramework\EmpComp2.class
 DataProvider\FacebookRegistrationIntregation.class
 JavaBasics\swapNumber.class
+RemoteTest\Test5.class
 BasicTest\Depends.class
 JavaBasics\LowestNumberInArray.class
 ExcelWriteRead\WorkerFileRead.class
@@ -42,6 +44,7 @@ JavaBasics\Threding.class
 JavaBasics\SyncTest.class
 Parameteization\ParameterizationTest.class
 JavaBasics\RotatedArray.class
+RemoteTest\Test6.class
 CollectionFramework\ListDemo.class
 DataProvider\DataProviderParameterexample.class
 JavaBasics\NonRepeatedCharinString.class
