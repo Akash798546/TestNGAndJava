@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "testng-1.0.dtd">
+<suite name="Data Provider Suite">
+  <test  name="Unit Test">
+	  <classes>
+		   <class name="DataProvider.DataProviderParameterexample"/>
+	  </classes>
+    </test> <!-- Test -->
+    
+    <test  name="AcceptanceLevel">
+	  <classes>
+		   <class name="DataProvider.DataProviderAcceptanceExample"/>
+	  </classes>
+    </test> <!-- Test -->
+    
+    <test  name="IntregationLevel">
+	  <classes>
+		   <class name="DataProvider.DataProviderIntregationExample"/>
+	  </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

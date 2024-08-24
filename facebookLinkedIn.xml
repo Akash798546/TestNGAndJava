@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "testng-1.0.dtd">
+<suite name="FacebookLinkedIn Suite">
+  <test  name="Unit Test">
+	  <classes>
+		   <class name="DataProvider.FacebookLoginTest"/>
+	  </classes>
+    </test> <!-- Test -->
+    
+    <test  name="FacebookRegistration">
+	  <classes>
+		   <class name="DataProvider.FacebookRegistrationIntregation"/>
+	  </classes>
+    </test> <!-- Test -->
+    
+    <test  name="FacebookLogin">
+	  <classes>
+		   <class name="DataProvider.FacebookIntregation"/>
+	  </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

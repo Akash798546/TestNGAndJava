@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "testng-1.0.dtd">
+<suite name="Facebook new Suite" parallel="methods" thread-count="3">
+    <test name="Test1">
+        <classes>
+            <class name="ExtentReport.FaceBook_Registration" />
+        </classes>
+    </test>
+    <test name="Test2">
+        <classes>
+            <class name="ExtentReport.Facebook_Login" />
+        </classes>
+    </test>
+</suite>

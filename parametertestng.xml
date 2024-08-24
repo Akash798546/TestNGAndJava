@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "testng-1.0.dtd">
+<suite name="parameterization Suite">
+	<parameter name="browser" value="firefox mozilla"></parameter>
+	<parameter name="userName" value="akash.gupta3"></parameter>
+	<parameter name="password" value="akash@1234#"></parameter>
+  <test name="Parameterization Test">
+	  <classes>
+		 <class name="Parameteization.ParameterizationTest"/>
+	  </classes>
+	  <!-- Include test classes here -->
+  </test> <!-- Test -->
+
+</suite> <!-- Suite -->

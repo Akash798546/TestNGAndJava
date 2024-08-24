@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "testng-1.0.dtd">
+<suite name="Selenium Suite">
+	<parameter name="browser" value="firefox" />
+	<parameter name="url" value="google.com"></parameter>
+	<parameter name="na" value="poonam"></parameter>
+	<test name="Test">
+		<classes>
+			<class name="Selenium.OpenBrowser" />
+		</classes>
+
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Test(failed)">
+    <classes>
+      <class name="RemoteTest.Test1">
+        <methods>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- RemoteTest.Test1 -->
+      <class name="RemoteTest.Test3">
+        <methods>
+          <include name="test3"/>
+        </methods>
+      </class> <!-- RemoteTest.Test3 -->
+      <class name="RemoteTest.Test4">
+        <methods>
+          <include name="test4"/>
+        </methods>
+      </class> <!-- RemoteTest.Test4 -->
+      <class name="RemoteTest.Test2">
+        <methods>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- RemoteTest.Test2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

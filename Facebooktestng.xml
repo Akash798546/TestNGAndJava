@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "testng-1.0.dtd">
+<suite name="Testng Suite">
+  <test name="Facebook Registration Test">
+	  <classes>
+		 <class name="ExtentReport.FaceBook_Registration"/>
+	  </classes>
+	  <!-- Include test classes here -->
+  </test> <!-- Test -->
+  <test name="Facebook Login Test">
+	 <classes>
+		  <class name="ExtentReport.Facebook_Login"/>
+	  </classes>
+	  <!-- Include test classes here -->
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
