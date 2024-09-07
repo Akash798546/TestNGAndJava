@@ -37,7 +37,8 @@ public class EmployeeDataFromExcel {
 			if(row.toString().equals("Peter"))
 			{
            XSSFCell cell=row.getCell(3);
-           System.out.println();
+          
+           System.out.println(cell.getNumericCellValue());
 
 			}
 			

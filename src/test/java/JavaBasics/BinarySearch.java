@@ -1,4 +1,4 @@
-package JavaBasics;
+ package JavaBasics;
 
 public class BinarySearch {
 
@@ -26,7 +26,7 @@ public class BinarySearch {
 	  
 	  BinarySearch bs=new BinarySearch();
 	  int[] a= {223,344,544,654,643,766,367};
-	  int x=766;
+	  int x=344;
 	  int index =bs.binarySearch(a, 0, a.length-1, x);
 	  if(index==-1)
 	  {

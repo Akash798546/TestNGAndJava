@@ -9,24 +9,43 @@ public class PrimeNumber {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter the num : ");
 		int num =sc.nextInt();
-		int count=0;
-		
-		
-		if(num>1)
+//		int count=0;
+//		
+//		
+//		if(num>1)
+//		{
+//			for (int i = 1; i <= num; i++)
+//			{
+//			 if(num%i==0)
+//				 count++;
+//			}
+//			if(count==2)
+//			{
+//				System.out.println("The number is prime");
+//			}
+//			else
+//			{
+//				System.out.println("Number is not a prime number");
+//			}
+//		}
+		boolean flag=false;
+		for(int i=2;i<=num/2;i++)
 		{
-			for (int i = 1; i <= num; i++)
+			if(num%i==0)
 			{
-			 if(num%i==0)
-				 count++;
+				flag=true;
+				break;
 			}
-			if(count==2)
-			{
-				System.out.println("The number is prime");
-			}
-			else
-			{
-				System.out.println("Number is not a prime number");
-			}
+			
+		}
+		if(flag==false)
+		{
+			System.out.println("The Number is prime");
+			
+		}
+		else
+		{
+			System.out.println("Not prime");
 		}
 		
 	}

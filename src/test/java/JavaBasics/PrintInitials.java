@@ -1,4 +1,4 @@
-package JavaBasics;
+ package JavaBasics;
 
 import java.util.Scanner;
 
@@ -27,8 +27,9 @@ public class PrintInitials {
 
 	    public static void printInitials(String firstName, String middleName, String surname) {
 	        // Get the first letter of each name and convert to uppercase
-	        char firstInitial = Character.toUpperCase(firstName.charAt(0));
-	        char middleInitial = Character.toUpperCase(middleName.charAt(0));
+	        char firstInitial = firstName.toUpperCase().charAt(0);
+	        		
+	       char middleInitial = Character.toUpperCase(middleName.charAt(0));
 	        char surnameInitial = Character.toUpperCase(surname.charAt(0));
 	        
 	        // Print the initials

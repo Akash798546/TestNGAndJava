@@ -5,14 +5,14 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 public class DataProviderClass {
-  @Test(dataProvider="getdata")
+  @Test(dataProvider="testdata")
   public void checkcondition(int actual, int expected) {
 	  
 	  actual=actual+20;
 	  Assert.assertEquals(actual, expected);
-  }
+  } 
   
-  @DataProvider()
+  @DataProvider(name="testdata")
   public Object[][] getdata()
   {
 	  return new Object[][]

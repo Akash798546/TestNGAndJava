@@ -13,7 +13,7 @@ public class MissingNumberArray {
 		}
 		System.out.println("Sum of element in array :" +sum);
 		
-		for(int i=1;i<=7;i++)
+		for(int i=1;i<=a[a.length-1];i++)
 		{
 			sum1=sum1+i;
 		}

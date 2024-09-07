@@ -7,7 +7,7 @@ public class CheckArraysEquals {
 	public static void main(String[] args) {
 
 		Integer a[] = { 1, 2, 3, 4, 5 };
-		Integer b[] = { 1, 2, 3, 4, 5 };
+		Integer b[] = { 1, 3, 3, 4, 5 };
 
 		boolean status = Arrays.equals(a, b);
 
@@ -39,7 +39,7 @@ public class CheckArraysEquals {
 		}
 		else
 		{
-			st=true;
+			st=false;
 		}
 		if(st==true)
 		{

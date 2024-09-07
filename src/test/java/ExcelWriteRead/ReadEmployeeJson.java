@@ -18,13 +18,14 @@ public class ReadEmployeeJson {
 	
 	JSONParser jp=new JSONParser();
 	JSONObject jo=(JSONObject) jp.parse(file);
-	JSONArray empDetails=(JSONArray) jo.get("Employee Details");
-	JSONObject firstCandidate= (JSONObject) empDetails.get(2);
-	String name=(String) firstCandidate.get("Name");
-	System.out.println(name);
+	JSONArray ja=(JSONArray) jo.get("Employee Details");
+	JSONObject emp=(JSONObject) ja.get(0 );
+	String name=(String) emp.get("Name");
+	
 	 
+	System.out.println(name); 
 	 
-	 
+	
 	 
 	 }
 

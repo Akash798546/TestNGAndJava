@@ -22,10 +22,10 @@ public class NonRepeatedCharinString {
 	                }
 	            }
 
-	            // If the character is not repeated, return it
-	            if (!isRepeated) {
-	                return currentChar;
-	            }
+//	            // If the character is not repeated, return it
+//	            if (!isRepeated) {
+//	                return currentChar;
+//	            }
 	        }
 
 	        // If no non-repeated character is found

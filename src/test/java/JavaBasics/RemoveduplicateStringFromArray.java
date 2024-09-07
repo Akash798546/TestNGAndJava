@@ -11,7 +11,9 @@ public class RemoveduplicateStringFromArray {
 		System.out.println("Before"+Arrays.toString(arry));
 		
 		 arry=Arrays.stream(arry).distinct().toArray(String[]::new);
+		
 		 System.out.println("After"+Arrays.toString(arry));
 	}
 
 }
+ 

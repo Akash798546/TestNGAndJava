@@ -6,7 +6,7 @@ public class SearchElementInArray {
 	
 	int a[]= {10,20,30,60,59};
 	boolean flag=false;
-	int search_value=59;
+	int search_value=60;
 	
 	for (int i = 0; i < a.length; i++) {
 		if(search_value==a[i])

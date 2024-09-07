@@ -30,7 +30,7 @@ public class ArraySorting {
 		{
 			for(int j=0;j<sal.length-1-i;j++)
 			{
-			if(sal[j]>sal[j+1])
+			if(sal[j]<sal[j+1])
 			{
 				int temp=sal[j];
 				sal[j]=sal[j+1];
@@ -38,12 +38,12 @@ public class ArraySorting {
 				
 			}
 			
-		}System.out.println("Sorted by bubble sort : "+Arrays.toString(sal));
+		}
 		
 		
 			}
 		
-//		System.out.println("Sorted by bubble sort : "+Arrays.toString(sal));
+		System.out.println("Sorted by bubble sort : "+Arrays.toString(sal));
 		
 		
 	}

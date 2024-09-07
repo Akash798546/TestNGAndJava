@@ -26,7 +26,7 @@ public class LowestNumberInArray {
 			
 		}
 		System.out.println(Arrays.toString(a));
-		System.out.println("The Second lowest number is : "+a[1]);
+		System.out.println("The Second lowest number is : "+a[0]);
 		
 	}
 	

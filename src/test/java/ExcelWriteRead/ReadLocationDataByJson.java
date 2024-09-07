@@ -6,6 +6,7 @@ import java.io.IOException;
 import org.json.simple.parser.ParseException;
 
 import com.google.gson.JsonArray;
+import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
@@ -16,39 +17,31 @@ public class ReadLocationDataByJson {
 	
 	public static void main(String[] args) throws IOException, ParseException
 	{
-		
+	
 		FileReader file=new FileReader(path);
-		
-		JsonObject js=JsonParser.parseReader(file).getAsJsonObject();
-		JsonObject location =js.getAsJsonObject("location");
+		JsonObject jo=JsonParser.parseReader(file).getAsJsonObject();
+		JsonObject location=jo.getAsJsonObject("location");
 		double lat=location.get("lat").getAsDouble();
-		double lag=location.get("lng").getAsDouble();
-		int acc=js.get("accuracy").getAsInt();
-		String name=js.get("name").getAsString();
-		String phNum=js.get("phone_number").getAsString();
-		String add=js.get("address").getAsString();
-		/*
-		 * JSONParser parse=new JSONParser(); JSONObject jo=(JSONObject)
-		 * parse.parse(file); JSONArray types=(JSONArray) jo.get("types"); String
-		 * type1=(String) types.get(0); String type2=(String) types.get(1);
-		 */
+		double lon=location.get("lng").getAsDouble();
+		String accuracy=jo.get("accuracy").getAsString();
+		String name=jo.get("name").getAsString();
+		String mobile=jo.get("phone_number").getAsString();
+		JsonArray type=jo.getAsJsonArray("types");
 		
-		
-		
-		
-		System.out.println("Latitude :"+lat);
-		System.out.println("Longitude :"+lag);
-		System.out.println("Accuracy :"+acc);
-		System.out.println("Name :"+name);
-		System.out.println("Phone Number :"+phNum);
-//		System.out.println("Type1 :"+type1);
-//		System.out.println("Type2 :"+type2);
-		JsonArray type=js.getAsJsonArray("types");
-		System.out.println("Types :");
-		for(Object obj:type)
+		System.out.println("Latitude : "+lat);
+		System.out.println("Longitude : "+lon);
+		System.out.println("Accuracy : "+accuracy);
+		System.out.println("Name : "+name);
+		System.out.println("Mobile : "+mobile);
+		System.out.print("Types: ");
+		for(JsonElement str:type)
 		{
-			System.out.println(obj);
+			if(str.getAsString().equals("shoe park"))
+			{
+			System.out.println(str);
+			}
 		}
+		
 		
 		
 		

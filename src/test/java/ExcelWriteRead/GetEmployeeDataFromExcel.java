@@ -12,39 +12,35 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 public class GetEmployeeDataFromExcel {
 	
 	 static String filepath = "C://Users//Lenovo//OneDrive//Desktop//Data.xlsx";
-	    static String searchName = "Chris"; // Name to search for
-	    
+	    static String searchName = "Peter"; // Name to search for
+	    static XSSFCell cellName;
+	    static XSSFCell cellSalary;
 	    public static void main(String[] args) throws IOException
 	    {
+	    FileInputStream fis=new FileInputStream(filepath);
+	    
+	    XSSFWorkbook wb=new XSSFWorkbook(fis);
+	    XSSFSheet sheet=wb.getSheet("Sheet1");
+	    for(Row row:sheet)
+	    {
+	    	 cellName=(XSSFCell) row.getCell(0);
+	    	 cellSalary=(XSSFCell) row.getCell(3);
 	    	
-	    	FileInputStream fis=new FileInputStream(filepath);
-	    	
-	    	XSSFWorkbook wb=new XSSFWorkbook(fis);
-	    	XSSFSheet sheet=wb.getSheet("Sheet1");
-	    	boolean found=false;
-	    	for(Row row:sheet)
+	    	if(cellName.getStringCellValue()!=null && cellName.getCellType()==CellType.STRING)
 	    	{
-	    		if(row.getRowNum()==0)
+	    		String cellValue=cellName.getStringCellValue();
+	    		if(cellValue.equals(searchName))
 	    		{
-	    			continue;
-	    		}
-	    		
-	    		XSSFCell cellName=(XSSFCell) row.getCell(0);
-	    		XSSFCell salaryCell=(XSSFCell) row.getCell(2);
-	    		if(cellName!=null && cellName.getCellType()==CellType.STRING)
-	    		{
-	    			String cellValue=cellName.getStringCellValue();
-	    			if(cellValue.equals(searchName))
+	    			if(cellSalary!=null && cellSalary.getCellType()==CellType.NUMERIC)
 	    			{
-	    				if(salaryCell!=null && salaryCell.getCellType()==CellType.NUMERIC)
-	    				{
-	    					int salary=(int) salaryCell.getNumericCellValue();
-	    					System.out.println("The id of "+searchName+" is "+salary);
-	    				}
+	    				
+	    				System.out.println(cellSalary.getNumericCellValue());
+	    				return;
 	    			}
 	    		}
-	    		
 	    	}
+	    }
+	    
 	    	
 	    	
 	    	

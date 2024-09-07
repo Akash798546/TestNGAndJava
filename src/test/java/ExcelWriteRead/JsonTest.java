@@ -1,11 +1,14 @@
 package ExcelWriteRead;
 
+import java.io.FileWriter;
+import java.io.IOException;
+
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
 public class JsonTest {
 	
-	public static void main(String[] args)
+	public static void main(String[] args) throws IOException
 	{
 		JSONObject obj1=new JSONObject();
 		obj1.put("Name", "Akash");
@@ -23,6 +26,9 @@ public class JsonTest {
 		
 		JSONObject js=new JSONObject();
 		js.put("Employee Details", ja);
+		FileWriter filewrite = new FileWriter("ArrayJson.json");
+		filewrite.write(js.toJSONString());
+		filewrite.flush();
 		System.out.println(js.toJSONString());
 	}
 

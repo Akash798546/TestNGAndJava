@@ -1,4 +1,4 @@
-package DataProvider;
+ package DataProvider;
 
 import org.testng.annotations.Test;
 
@@ -9,3 +9,4 @@ public class DataProviderIntregationExample {
 	  System.out.println("Intregation Testing: Data("+data+")");
   }
 }
+ 
