@@ -16,16 +16,7 @@ public class TestClass103 {
 	{
 	map.put(i, map.getOrDefault(i, 0)+1);
 	}
-	
-//	int max=0;
-//	for(Integer k:map.values())
-//	{
-//		if(k>max)
-//		{
-//			max=k;
-//		}
-//	}
-//	
+		
 	for(Map.Entry<Integer, Integer> entry:map.entrySet())
 	{
 		if(entry.getValue()==1)

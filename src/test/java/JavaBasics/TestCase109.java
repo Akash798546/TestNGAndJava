@@ -9,7 +9,7 @@ public class TestCase109 {
 		String s2="java";
 		String s3=new String("java");
 		
-		System.out.println(s1==s2);
+		System.out.println( s1==s2);
 		System.out.println(s1.equals(s2));
 		System.out.println(s1==s3);
 		System.out.println(s1.equals(s3));

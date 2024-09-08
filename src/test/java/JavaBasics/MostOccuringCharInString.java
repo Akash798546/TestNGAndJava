@@ -3,7 +3,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class TestCase101 {
+public class MostOccuringCharInString {
 public static void main(String[] args)
 {
 	String str="hello how are you doing";

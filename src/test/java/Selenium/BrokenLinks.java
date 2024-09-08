@@ -14,12 +14,11 @@ import java.util.List;
 public class BrokenLinks  {
 
     public static void main(String[] args) {
-        // Set the path to your WebDriver executable
+        
         System.setProperty("webdriver.chrome.driver", "/path/to/chromedriver");
 
         WebDriver driver = new ChromeDriver();
 
-        // Navigate to the webpage
         driver.get("https://example.com");
 
         // Find all links (anchor tags) on the webpage

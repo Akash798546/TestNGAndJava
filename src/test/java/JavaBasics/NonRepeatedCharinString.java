@@ -1,43 +1,68 @@
 package JavaBasics;
 
+import java.util.HashMap;
 import java.util.Scanner;
 
 import ch.qos.logback.core.recovery.ResilientSyslogOutputStream;
 
 public class NonRepeatedCharinString {
 	
+
+		
+		public static void main(String[] args) {
+			String str = "swisses";
+			boolean flag=false;
+			for(int i=0;i<str.length();i++) {
+				char ch=str.charAt(i);
+				flag=false;
+				for(int j=0;j<str.length();j++)
+				{
+					if(i!=j && ch==str.charAt(j))
+					{
+						flag=true;
+						break;
+					}	
+				}
+				if(!flag)
+				{
+					System.out.println("The first no repeative char is :"+ch);
+					return;
+				}
+			
+			
+				
+				
+			}
+			
+			
+			
+//			HashMap<Character,Integer> map=new HashMap();
+//			
+//			for(int i=0;i<str.length();i++)
+//			{
+//				char ch=str.charAt(i);
+//				map.put(ch, map.getOrDefault(ch, 0)+1);
+//				
+//			}
+//			
+//			 for (int i = 0; i < str.length(); i++) {
+//		            char ch = str.charAt(i);
+//		            if (map.get(ch) == 1) {
+//		                System.out.println("First non-repeated character: " + ch);
+//		                break;  // Exit after finding the first non-repeated character
+//		            }
+//		        }
+//			
+//			
+//			
+//			
+			
+		}
+		
+		
+		
+		
+		
+	}
 	
-	   public static char findFirstNonRepeatedChar(String str) {
-	        int length = str.length();
-
-	        for (int i = 0; i < length; i++) {
-	            char currentChar = str.charAt(i);
-	            boolean isRepeated = false;
-
-	            // Check if currentChar is repeated in the string
-	            for (int j = 0; j < length; j++) {
-	                if (i != j && currentChar == str.charAt(j)) {
-	                    isRepeated = true;
-	                    break;
-	                }
-	            }
-
-//	            // If the character is not repeated, return it
-//	            if (!isRepeated) {
-//	                return currentChar;
-//	            }
-	        }
-
-	        // If no non-repeated character is found
-	        throw new RuntimeException("No non-repeated character found in the string.");
-	    }
-
-	    public static void main(String[] args) {
-	        String str = "swiss";
-	        try {
-	            char result = findFirstNonRepeatedChar(str);
-	            System.out.println("The first non-repeated character is: " + result);
-	        } catch (RuntimeException e) {
-	            System.out.println(e.getMessage());
-	        }
-	    }}
+	      
