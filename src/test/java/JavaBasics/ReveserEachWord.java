@@ -9,12 +9,12 @@ public class ReveserEachWord {
 	String reverseString="";
 	for(int i=str.length-1;i>=0;i--)
 	{
-		char rev;
+		
 		String st=str[i];
 		String s1="";
 		for(int j=0;j<st.length();j++)
 		{
-			 rev=st.charAt(j);
+			char rev=st.charAt(j);
 			s1=rev+s1;
 		}
 		reverseString =reverseString+s1+" ";

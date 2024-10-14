@@ -1,5 +1,6 @@
 package JavaBasics;
 
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set; 
 
@@ -14,16 +15,14 @@ public class RemoveDuplicateFromArray {
 		Set<Integer> st=new HashSet<>();
 		for(int num:a)
 		{
-			st.add(num);
-		
-				
+			st.add(num);		
 		}
-		
 		a=st.stream().mapToInt(Integer::intValue).toArray();
 		for(int value:a)
 		{
 			System.out.print(" "+value);
 		}
+		System.out.println(Arrays.toString(a));
 		
 		
 	}

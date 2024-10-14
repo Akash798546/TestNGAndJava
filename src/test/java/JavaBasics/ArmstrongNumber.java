@@ -1,4 +1,4 @@
-package JavaBasics;
+ package JavaBasics;
 
 import java.util.Scanner;
 
@@ -31,14 +31,7 @@ public class ArmstrongNumber {
 		{
 			System.out.println("The number is not armstrong");
 		}
-		
-		
-		
-		
-		
-		
-		
-		
+	
 	}
 
 }

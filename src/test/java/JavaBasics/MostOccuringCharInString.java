@@ -30,12 +30,7 @@ public static void main(String[] args)
 			System.out.println(entry.getKey()+" : "+entry.getValue());
 		}
 	}
-	
-	
-	
-	
-	
-	
+
 }
 	
 }

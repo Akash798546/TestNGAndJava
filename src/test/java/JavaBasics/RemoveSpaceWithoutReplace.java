@@ -11,8 +11,6 @@ public class RemoveSpaceWithoutReplace {
 		String s=sc.nextLine();
 		String st=doubleLetter(s);
 		System.out.println(st);
-		
-		
 		}
 	
 	public static String doubleLetter(String str)
@@ -21,7 +19,11 @@ public class RemoveSpaceWithoutReplace {
 		for(int i=0;i<str.length();i++)
 		{
 			char ch=str.charAt(i);
-			letter.append(ch).append(ch);
+			if(Character.isLetter(ch))
+			{
+				letter.append(ch);
+			}
+//			letter.append(ch).append(ch);
 			
 			
 			
